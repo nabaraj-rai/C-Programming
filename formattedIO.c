@@ -1,15 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
     int day, year;
-    char month;
+    char month[20];
+
     printf("Enter your Date of Birth:\n");
     printf("Day:\t ");
-    scanf("%d",&day);
+    scanf("%d", &day);
+
     printf("Month:\t ");
-    scanf("%s",&month);
+    scanf("%19s", month);  // no & needed
+
     printf("Year:\t ");
-    scanf("%d",&year);
+    scanf("%d", &year);
 
     printf("Your birth day is on %d, %s, %d.", day, month, year);
 
