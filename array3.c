@@ -1,6 +1,9 @@
 #include<stdio.h>
 
+
 int main(){
+
+    //Program to sort numbers in Ascending Numbers.
     int num[100], i, j, n, temp;
 
     printf("\n How many numbers you want to sort?:\t");
@@ -17,7 +20,7 @@ int main(){
     }
     
     for(i=0;i<n;i++){
-        for(j=i++;j<n;j++){
+        for(j=i+1;j<n;j++){
             if(num[i]>num[j]){
                 temp=num[i];
                 num[i]=num[j];
