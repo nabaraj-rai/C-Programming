@@ -5,13 +5,17 @@ int main(){
 
     printf("\n How many numbers you want to sort?:\t");
     scanf("%d",&n);
+
     for(i=0;i<n;i++){
         scanf("%d",&num[i]);
     }
+
     printf("\n THe nubmers before sorting are:\n");
+
     for(i=0;i<n;i++){
         printf("%d\t",num[i]);
     }
+    
     for(i=0;i<n;i++){
         for(j=i++;j<n;j++){
             if(num[i]>num[j]){
