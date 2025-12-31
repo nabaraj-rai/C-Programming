@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <conio.h>
 #define M 2
 #define N 4
 
-void main(){
+int main(){
     int matrix[M][N],i,j;
     printf("\nEnter the matrix elements:\t");
     for(i=0;i<M;i++){
@@ -18,5 +17,5 @@ void main(){
         }
         printf("\n");
     }
-    getch();
+    return 0;
 }
