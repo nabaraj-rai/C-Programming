@@ -16,8 +16,8 @@ int main(){
     }
     else{
         printf("Enter the first matrix : \n");
-        for(i=0;j<m-1;i++){
-            for(j=0;j<n-1;j++){
+        for(i=0;i<=m-1;i++){
+            for(j=0;j<=n-1;j++){
                 printf("Enter a[%d] [%d] : \t",i,j);
                 scanf("%d",&a[i][j]);
             }
