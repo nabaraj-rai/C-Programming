@@ -1,13 +1,14 @@
 #include<stdio.h>
+#include<string.h>
  void display(struct employee e);
  struct employee{
         char name[20];
         int id;
         float salary;
-    }emp;
+    };
 
 int main(){
-    
+    struct employee emp;
     printf("Employee name:\t");
     scanf("%s",emp.name);
     printf("\nEmployee id:\t");
